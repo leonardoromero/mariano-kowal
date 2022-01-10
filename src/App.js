@@ -1,25 +1,28 @@
 import './App.css';
 import React from 'react'
-import { Hero } from './components/Hero';
-import { Nav } from './components/Navigation/Nav';
-import { Shows } from './components/Shows';
-import { Discography } from './components/Discography/Discography';
-import { Social } from './components/Social';
-import { Quote } from './components/Quote';
-import { Footer } from './components/Footer/Footer';
-import { About } from './components/About/About';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+import { Admin } from './components/Admin/Admin';
+import { Main } from './components/Main';
+import { ShowsProvider } from './context/ShowsContext';
 
 function App() {
+
+  
+
   return (
     <>
-      <Nav/>
-      <Hero/>
-      <Shows/>
-      <Discography/>
-      <About/>
-      <Social/>
-      <Quote/>
-      <Footer/>
+    <ShowsProvider>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Main/>}/>
+          {/* <Route path='/admin' element={<Admin/>}/> */}
+        </Routes>
+      </Router>
+    </ShowsProvider>
     </>
   );
 }
