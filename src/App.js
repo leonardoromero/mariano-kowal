@@ -5,7 +5,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import { Admin } from './components/Admin/Admin';
 import { Main } from './components/Main';
 import { ShowsProvider } from './context/ShowsContext';
 
@@ -19,7 +18,6 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Main/>}/>
-          {/* <Route path='/admin' element={<Admin/>}/> */}
         </Routes>
       </Router>
     </ShowsProvider>

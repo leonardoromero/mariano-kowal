@@ -1,5 +1,4 @@
 import React from 'react'
-import {CustomLink} from '../CustomLink'
 
 export const NewShow = ( {day, month, place, link, address} ) => {
     return (
