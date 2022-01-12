@@ -8,14 +8,6 @@
         @apply text-[3.5rem] sm:text-[4rem] md:text-[8rem] lg:text-[10rem] xl:text-[14rem] font-bold leading-[5rem] md:leading-[10rem] lg:leading-[12rem] text-bg text-center
     }
 
-    h1 span {
-        mix-blend-mode: color-burn
-    }
-    
-    h1 span:hover {
-        mix-blend-mode: overlay;
-    }
-    
     span.discography:hover {
         color: #FDC341
     }
@@ -29,7 +21,7 @@
     }
 
     .quote-sign {
-        @apply mr-2 text-neutral-400 opacity-10 font-serif -ml-16 -mt-3 leading-none text-9xl absolute
+        @apply mr-2 text-neutral-400 opacity-10 font-serif -ml-10 -mt-3 leading-none text-9xl absolute z-50
     }
 
     .social-img {

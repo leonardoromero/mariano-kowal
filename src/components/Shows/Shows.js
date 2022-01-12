@@ -8,7 +8,7 @@ import { ShowsTitleCol } from './ShowsTitleCol'
 export const Shows = () => {
     return (
         <div 
-            className='h-screen w-full flex justify-center items-center bg-fixed bg-cover'
+            className='h-screen w-full flex justify-center items-center lg:bg-fixed'
             style={{ backgroundImage:`url(${bg})`}}>
             <ShowsContainer>
                 <ShowsTitleCol>

@@ -6,7 +6,7 @@ export const Nav = () => {
 
     return (
         <NavBar>
-            <img src={logo} alt='logo de mariano kowal' className='h-14 ml-5'/>
+            <img src={logo} alt='logo de mariano kowal' className='h-14 ml-5 opacity-50 pt-1'/>
         </NavBar>
     )
 }
