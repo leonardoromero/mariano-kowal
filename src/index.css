@@ -21,7 +21,7 @@
     }
 
     .quote-sign {
-        @apply mr-2 text-neutral-400 opacity-10 font-serif -ml-10 -mt-3 leading-none text-9xl absolute z-50
+        @apply mr-2 text-neutral-400 opacity-10 font-serif -ml-10 -mt-3 leading-none text-9xl absolute invisible
     }
 
     .social-img {
