@@ -7,6 +7,7 @@ import { Social } from './Social';
 import { Quote } from './Quote';
 import { Footer } from './Footer/Footer';
 import { About } from './About/About';
+import { Press } from './Press/Press';
 
 export const Main = () => {
     return (

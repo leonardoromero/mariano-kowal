@@ -8,7 +8,7 @@ import { ShowsTitleCol } from './ShowsTitleCol'
 export const Shows = () => {
     return (
         <div 
-            className='h-screen w-full flex justify-center items-center lg:bg-fixed'
+            className='flex items-center justify-center w-full h-screen lg:bg-fixed'
             style={{ backgroundImage:`url(${bg})`}}>
             <ShowsContainer>
                 <ShowsTitleCol>
@@ -20,7 +20,9 @@ export const Shows = () => {
                 </ShowsTitleCol>
 
                 <ShowsContentCol>
-                    <NewShow day='10' month='feb' place='Acústicos Urbanos' link='https://www.instagram.com/acusticos.urbanos/' address='Caballito, Caba'/>
+                    <NewShow day='10' month='feb' place='Acústicos Urbanos' link='https://www.instagram.com/acusticos.urbanos/' address='Aguirre 489, CABA'/>
+                    <NewShow day='14' month='mar' place='Folk you Mondays' link='https://www.instagram.com/folkyoumondays/' address='Pje. Bollini 2281, CABA'/>
+                    <NewShow day='31' month='mar' place='921 Casa Cultural' link='https://www.instagram.com/921.casacultural/' address='San José de Calasanz 921, CABA'/>
                 </ShowsContentCol>
             </ShowsContainer> 
         </div>
