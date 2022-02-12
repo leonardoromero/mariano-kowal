@@ -1,13 +1,98 @@
 import React from 'react';
 import bg from '../../img/newspaper-bg.png';
+import qepd from '../../img/press/qepd.png';
+import spe from '../../img/press/spe.png';
+import territorioRock from '../../img/press/territorio-rock.png';
+import radioClickDigital from '../../img/press/radio-click-digital.png';
+import picaEnPunta from '../../img/press/pica-en-punta.jpg';
+import telefe from '../../img/press/telefe.png';
 
 export const Press = () => {
 	return (
 		<div
-			className='flex justify-center min-h-screen'
+			className='flex justify-center'
 			style={{ backgroundImage: `url(${bg})` }}
 		>
-			<div className='flex flex-col border border-red-400 lg:flex-row'>
+			<div className='my-24'>
+				<h3 className='p-12 decoration-wavy underline-offset-4 decoration-4 decoration-[#FDC341] text-6xl font-bold text-center underline lg:text-7xl font-orbitron text-bg'>
+					Prensa
+				</h3>
+				<div className='flex flex-col flex-wrap items-center space-y-10 justify-items-center md:grid md:grid-cols-3 md:gap-5 max-w-10/12'>
+					<a
+						href='https://www.instagram.com/tv/CT8CT1hBrNz/?utm_source=ig_web_button_share_sheet'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={telefe}
+							alt='logo telefe'
+							loading='lazy'
+							className='w-32 transition-all hover:scale-110 '
+						/>
+					</a>
+					<a
+						href='https://qepd.news/confesiones-lo-nuevo-de-mariano-kowal/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={qepd}
+							alt='logo qepd'
+							loading='lazy'
+							className='h-16 transition-all hover:scale-110 '
+						/>
+					</a>
+					<a
+						href='https://territoriorock.com/conociendo-bandas/mariano-kowal-nos-presenta-su-ep-titulado-desarmado/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={territorioRock}
+							alt='logo territorio rock'
+							loading='lazy'
+							className='h-10 transition-all md:h-14 hover:scale-110 '
+						/>
+					</a>
+					<a
+						href='https://suenaspe.com/notas/mariano-kowal-tocar-en-vivo-siempre-tiene-una-magia-especial/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={spe}
+							alt='logo spe'
+							loading='lazy'
+							className='w-32 transition-all hover:scale-110 '
+						/>
+					</a>
+					<a
+						href='https://anchor.fm/pica-en-punta/episodes/PicaEnPunta---Msica-EN-VIVO-Entrevista-a-Mariano-Kowal-e178a9m'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={picaEnPunta}
+							alt='logo pica en punta'
+							loading='lazy'
+							className='w-32 transition-all hover:scale-110'
+						/>
+					</a>
+					<a
+						href='https://www.radioclickdigital.com.ar/confesiones/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<img
+							src={radioClickDigital}
+							alt='logo radio click digital'
+							loading='lazy'
+							className='w-32 transition-all hover:scale-110'
+						/>
+					</a>
+				</div>
+			</div>
+			{/* <div className='flex flex-col border border-red-400 lg:flex-row'>
 				<h3 className='text-5xl font-bold text-center lg:-rotate-90 text-bg md:text-7xl'>
 					PRENSA
 				</h3>
@@ -57,7 +142,7 @@ export const Press = () => {
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

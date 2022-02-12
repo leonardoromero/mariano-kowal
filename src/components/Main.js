@@ -17,6 +17,7 @@ export const Main = () => {
             <Shows/>
             <Discography/>
             <About/>
+            <Press/>
             <Social/>
             <Quote/>
             <Footer/>
