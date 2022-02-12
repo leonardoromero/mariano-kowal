@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e139026.css",
+    "main.js": "/static/js/main.37a433d4.js",
+    "static/js/787.a9ce5dd7.chunk.js": "/static/js/787.a9ce5dd7.chunk.js",
+    "static/media/radio-click-digital.png": "/static/media/radio-click-digital.c762550c2ee4798b8a9b.png",
+    "static/media/asteroids-big.png": "/static/media/asteroids-big.1634f1fb77faacb6eb29.png",
+    "static/media/space.png": "/static/media/space.142ab8dfa741e2014f89.png",
+    "static/media/newspaper-bg.png": "/static/media/newspaper-bg.7930b0446f4dbbd19bb2.png",
+    "static/media/telefe.png": "/static/media/telefe.46d91ab88c750ca56d35.png",
+    "static/media/artistica8.jpg": "/static/media/artistica8.676aa808603c37a8ebb1.jpg",
+    "static/media/spe.png": "/static/media/spe.cd699f20ea5fdcfbb924.png",
+    "static/media/confesiones.jpeg": "/static/media/confesiones.090d906a474e59a69aff.jpeg",
+    "static/media/desarmado.jpg": "/static/media/desarmado.837b4b4a2d5eea4751d3.jpg",
+    "static/media/rosasdevictoria.jpeg": "/static/media/rosasdevictoria.4e59f2d362a42e702f1d.jpeg",
+    "static/media/pica-en-punta.jpg": "/static/media/pica-en-punta.b7d3917e3b3cd7a4f3a5.jpg",
+    "static/media/tiktok.png": "/static/media/tiktok.49b1a7fdabdc892efbab.png",
+    "static/media/hero-bg-dark.png": "/static/media/hero-bg-dark.e15617e4b8cdc176fcb1.png",
+    "static/media/ig.png": "/static/media/ig.75e0546a6b5abe4c0506.png",
+    "static/media/lines.png": "/static/media/lines.a27fffd9cfcfe0471d06.png",
+    "static/media/blob.png": "/static/media/blob.b0b60760c9457215c8d4.png",
+    "index.html": "/index.html",
+    "main.1e139026.css.map": "/static/css/main.1e139026.css.map",
+    "main.37a433d4.js.map": "/static/js/main.37a433d4.js.map",
+    "787.a9ce5dd7.chunk.js.map": "/static/js/787.a9ce5dd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e139026.css",
+    "static/js/main.37a433d4.js"
+  ]
+}
