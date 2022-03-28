@@ -22,19 +22,11 @@ export const Shows = () => {
 
 				<ShowsContentCol>
 					<NewShow
-						day='14'
-						month='mar'
-						place='Folk you Mondays'
-						link='https://www.instagram.com/folkyoumondays/'
-						address='Pje. Bollini 2281, CABA'
+						
+						place='Próximamente'
+						
 					/>
-					<NewShow
-						day='31'
-						month='mar'
-						place='921 Casa Cultural'
-						link='https://www.instagram.com/921.casacultural/'
-						address='San José de Calasanz 921, CABA'
-					/>{' '}
+					
 				</ShowsContentCol>
 			</ShowsContainer>
 		</div>
