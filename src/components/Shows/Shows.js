@@ -11,7 +11,7 @@ export const Shows = () => {
 			className='flex items-center justify-center w-full h-screen lg:bg-fixed'
 			style={{ backgroundImage: `url(${bg})` }}
 		>
-			<ShowsContainer>
+			{/* <ShowsContainer>
 				<ShowsTitleCol>
 					<h2>PRÓ</h2>
 					<h2>XI</h2>
@@ -21,14 +21,8 @@ export const Shows = () => {
 				</ShowsTitleCol>
 
 				<ShowsContentCol>
-					<NewShow
-						
-						place='Próximamente'
-						
-					/>
-					
 				</ShowsContentCol>
-			</ShowsContainer>
+			</ShowsContainer> */}
 		</div>
 	);
 };
